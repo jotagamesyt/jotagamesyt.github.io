@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>PsicoTest</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        
+    <header>
+        <div class="container">
+            <p class="logo">PsicoTest</p>
+            <nav>
+                <a href="#somos-proya">Sobre Nosotros</a>
+                <a href="#nuestros-programas">Nuestros Programas</a>
+                <a href="#contactos">Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Ven y Evalúate con <br>los Mejores</h1>
+        <a href="https://wa.link/x2uupn" target="_blank" >
+        <button>Contáctanos</button>
+        </a>
+    </section>
+
+    <section id="somos-proya">
+        <div class="container">
+       <div class="img-container"></div>
+       <div class="texto">
+       <h2><span 
+        class="color-acento">¿Quiénes somos?</span></h2>
+       <p>Desde que nuestro proyecto comenzó a andar,
+          en <span 
+          class="color-acento">PsicoTest</span> hemos llevado a cabo una importante labor divulgativa. Nuestra
+          intención ha sido siempre la de acercar el mundo 
+          de la psicología y del desarrollo personal a nuestros
+          pacientes, y convertirlo en un auténtico recurso didáctico,
+          activo e integrado en nuestra sociedad.
+       </p>
+    </div>
+</div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+      <h2>Nuestros Programas</h2>
+      <div class="programas">
+        <div class="carta">
+                <h3>Terapia Individual</h3>
+                <p>La psicoterapia es un término difícil de definir por el amplio
+                    rango de intervenciones que abarca. Por ello, podemos encontrar
+                    múltiples definiciones en las que varían matices o perspectivas
+                    y que resultan ser extremadamente complejas para personas sin
+                        formación específica en psicología.</p>
+                        <button>+Información</button>
+            </div>
+            <div class="carta">
+                <h3>Terapia de Pareja</h3>
+                <p>Esta terapia tiene a la pareja como objetivo de atención. En esta intervención,
+                    el terapeuta ayuda a los miembros de la pareja a resolver distintos problemas 
+                    y dificultades y a mejorar su vínculo a partir de los puntos fuertes presentes en la relación.
+                    Esta terapia requiere del compromiso de las dos partes de la pareja y prioriza la relación durante la intervención.
+                    </p>
+                        <button>+Información</button>
+            </div>
+            <div class="carta">
+                <h3>Terapia Infantil</h3>
+                <p>La terapia psicológica infantil es una intervención terapéutica que tiene por objetivo mejorar 
+                    el bienestar emocional del niño. Con la terapia infantil, el psicólogo emplea diferentes herramientas
+                    en su trato con el menor, lo que puede incluir hablar, jugar u otras actividades que le faciliten el 
+                    comunicar sus emociones y pensamientos.</p>
+                    <button>+Información</button>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section id="contactos">
+        <div class="container">
+        <ul>
+            <li>⏰  Lunes a Viernes de 10:00 a 16:00</li>
+            <li>✉️  infoconsulta@gmail.com</li>
+            <li>🏠  Casa De Reto Oasis</li>
+            <li>📞  987654321</li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="final">
+                <h2>Separe su Cita</h2>
+                <div id="chatbot-container"></div><br>
+        <a href="https://wa.link/x2uupn" target="_blank" >
+            <button>Contáctanos</button>
+            </a>
+    </section>
+    
+    <footer>
+        
+        <div class="container">
+            <p>
+                &copy;  JoTaGames 2023      </p>         
+        </div>
+
+    </footer>
+    
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-icon="imagenes/jotar.png"
+  chat-title="Bot PsicoTest"
+  agent-id="06a3649b-e3d2-4ec3-b8be-2a3205bfe5b0"
+  language-code="es"
+></df-messenger>
+<script type="text/javascript" src="./chatbot.js"></script>
+</body>
+</html>
